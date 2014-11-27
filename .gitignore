@@ -3,5 +3,6 @@
 *.pkg.tar.xz
 *.src.tar.gz
 *.swp
+cataclysm-dda-ncurses-bin/*.tar.gz
 xfdown-git/xfdown/
 pinyin-completion-git/pinyin-completion
