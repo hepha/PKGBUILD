@@ -3,7 +3,9 @@
 *.pkg.tar.xz
 *.src.tar.gz
 *.swp
-cataclysm-dda-ncurses-bin/*.tar.gz
-xfdown-git/xfdown/
+*.tar.gz
+*.tgz
+*.gem
+
+xfdown-git/xfdown
 pinyin-completion-git/pinyin-completion
-ruby-rmail/rmail-1.0.0.gem
