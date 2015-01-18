@@ -40,6 +40,7 @@ package() {
   install -Dm755 cataclysm cataclysm-launcher "$pkgdir/${instdir}/"
 
   install -dm775 -g games "$pkgdir/${instdir}/data/"
+  install -dm775 -g games "$pkgdir/${instdir}/memorial/"
   cp -r data/* "$pkgdir/${instdir}/data"
 
   #User default mod list needs to be writeable
