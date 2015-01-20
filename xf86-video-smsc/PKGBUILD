@@ -5,7 +5,7 @@ pkgname=xf86-video-smsc
 pkgver=1.0.2.1
 pkgrel=20111206
 pkgdesc="An X driver for SMSC UFX6000/UFX7000 devices."
-arch=('x86_64')
+arch=('x86_64' 'i686')
 license=('custom')
 url="http://www.smsc.com/support"
 depends=('libusb')
@@ -15,7 +15,11 @@ md5sums=('8afc000c2b38c8180f734a0490899572')
 
 build() {
 	cd ${srcdir}
-	ar vx linux_xorg_${pkgver}_${pkgrel}/xf86-video-smsc_1.0.2.1-20111206_amd64.deb
+	if [ "$CARCH" = "i686" ]; then
+		ar vx linux_xorg_${pkgver}_${pkgrel}/xf86-video-smsc_${pkgver}-${pkgrel}_i386.deb
+	elif [ "$CARCH" = "x86_64" ]; then
+		ar vx linux_xorg_${pkgver}_${pkgrel}/xf86-video-smsc_${pkgver}-${pkgrel}_amd64.deb
+	fi
 	tar zxvf data.tar.gz
 }
 

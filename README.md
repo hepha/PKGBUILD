@@ -1,9 +1,9 @@
 PKGBUILD
 ========
 
-The PKGBUILDs for my packages in the [Archlinux CN Community Repository](https://github.com/archlinuxcn/repo).
+The PKGBUILDs for my packages in the [Archlinux CN Community Repository](https://github.com/archlinuxcn/repo) and [AUR](https://aur.archlinux.org/).
 
-## Package List
+## Packages in the Archlinux CN Community Repository
 
 * `115wangpan`: The 115 Wangpan client for linux.
 * `cataclysm-dda-ncurses`: Cataclysm: Dark Days Ahead (ncurses only)
@@ -20,3 +20,7 @@ The PKGBUILDs for my packages in the [Archlinux CN Community Repository](https:/
 * `xf86-video-smsc`: An X driver for SMSC UFX6000/UFX7000 devices.
 * `xfdown-git`: A python2 script for QQDownload lixian.
 * `xscreensaver-arch-logo`: Screen saver and locker for the X Window System with Arch Linux branding.
+
+## Packages in the AUR
+
+* `xf86-video-smsc`: An X driver for SMSC UFX6000/UFX7000 devices.
